@@ -1,0 +1,31 @@
+{config_load file="$language/lang_$language.conf" section="categorie_listing"}
+
+<table align="center" width="528" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="15" colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2"><img src="images/spezial/luemmel/spezial_top.gif" alt="Special L&uuml;mmel" /></td>
+</tr>
+<tr>
+<td height="15" colspan="2"></td>
+</tr>
+<tr>
+<td class="spezialheader"><strong>L&uuml;mmel - Der erste Sesselhockersofastuhl in deinem Leben</strong></td><td align="right" rowspan="4"><img src="images/spezial/luemmel/spezial_rechts_oben.gif" alt="Special L&uuml;mmel" /></td>
+</tr>
+<tr>
+<td valign="top" class="main">Setz dich dahin, wo es dir gerade gefällt. Setz dir ein Denkmal oder einfach neue Akzente. Der Lümmel macht alles mit, bietet dir in vielen Farben eine tolle Grundlage und ist so flexibel wie du, so mobil wie dein Leben. Einfach relaxt mit der Fernbedienung, mit einem Buch oder mit Schmetterlingen im Bauch den Platz wechseln. Immer gut drunter und niemals schlecht drauf.</td>
+</tr>
+<tr>
+<td class="main"><strong>Hier geht&acute;s weiter:</strong><br />{foreach name=aussen item=module_data from=$module_content}<a href="{$module_data.CATEGORIES_LINK}"><img src="{$tpl_path}buttons/{php}echo $_SESSION['language'];{/php}/small_view_orange.gif" alt="Details" /></a>{/foreach}</td>
+</tr>
+<tr>
+<td align="left" valign="bottom"><img src="images/spezial/luemmel/spezial_links_oben.gif" alt="Special L&uuml;mmel" /></td>
+</tr>
+<tr>
+<td colspan="2"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td colspan="2" height="10"></td></tr><tr><td><img src="images/spezial/luemmel/spezial_links_unten.gif" alt="Special L&uuml;mmel" /></td><td align="right"><img src="images/spezial/luemmel/spezial_rechts_unten.gif" alt="Special L&uuml;mmel" /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

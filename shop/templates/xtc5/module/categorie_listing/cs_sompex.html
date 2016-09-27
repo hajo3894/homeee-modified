@@ -1,0 +1,44 @@
+{config_load file="$language/lang_$language.conf" section="categorie_listing"}
+{if $CATEGORIES_IMAGE_MAIN}
+<table width="528" border="0" cellpadding="0" cellspacing="0" align="center">
+ <tr>
+  <td colspan="2" style="padding: 10px 0px 10px 0px"><img src="{$CATEGORIES_IMAGE_MAIN}" alt="{$CATEGORIES_NAME}" /></td>
+ </tr>
+ <tr>
+{else}
+<div style="padding-bottom:10px"></div>
+<table width="528" border="0" cellpadding="0" cellspacing="0" align="center">
+ <tr>
+{/if}
+{if $CATEGORIES_HEADING_TITLE}<td colspan="2" align="center"><h2 style="margin-top:-2px; font-size:12px">{$CATEGORIES_HEADING_TITLE}</h2></td></tr><tr>{/if}
+{if $module_content !=''}
+{foreach name=aussen item=module_data from=$module_content} 
+{php} 
+$col++; 
+{/php}
+{php} 
+if ($col==1) { 
+echo '<td id="categories_td" width="245px" align="left" style="padding-right:12px">';
+}
+else
+{
+echo '<td id="categories_td" width="271px">';
+}
+{/php}
+{if $module_data.CATEGORIES_IMAGE}<a href="{$module_data.CATEGORIES_LINK}"><img src="{$module_data.CATEGORIES_IMAGE}" alt="{$module_data.CATEGORIES_NAME}" /></a>{/if}<div style="padding: 0px 0px 8px 0px; text-align:center;"><strong><a href="{$module_data.CATEGORIES_LINK}">{$module_data.CATEGORIES_NAME}</a></strong></div></td>
+{php} 
+if ($col>=2) { 
+$col=0; 
+echo '</tr><tr>';
+} 
+{/php} 
+{/foreach}
+   <td></td>
+  </tr>
+{/if}
+{if $CATEGORIES_DESCRIPTION}
+ <tr>
+  <td colspan="2" style="text-align:justify"><div style="border:1px solid #B8B1AB; padding:5px; margin-bottom:10px">{$CATEGORIES_DESCRIPTION}</div></td>
+ </tr>
+{/if}
+</table>
