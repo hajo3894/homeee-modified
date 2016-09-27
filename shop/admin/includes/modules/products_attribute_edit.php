@@ -75,6 +75,9 @@ while($attributes_data = xtc_db_fetch_array($attributes_data_query)) {
 	
 	//Class Sales-Channels
 	$scAttInfo[$cv_id] = new salesChannels($_GET['pID'], $cv_id);
+	
+	//Pflicht-Angaben holen
+	$lfInfo[$cv_id] = new lightFeatures($_GET['pID'], $cv_id);
 
 ?>
 	 <div class="dashboard_module" style="float:left; height:100%">
