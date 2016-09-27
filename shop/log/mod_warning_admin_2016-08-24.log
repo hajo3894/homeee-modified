@@ -1,0 +1,11 @@
+[24-08-2016 11:52:07] E_WARNING	: LoggingManager: constant(): Couldn't find constant MODULE_CATEGORIES_INSTALLED in File: /www/htdocs/w014f718/webshop/modified/admin/modules.php on Line: 250
+[24-08-2016 11:52:24] E_WARNING	: LoggingManager: constant(): Couldn't find constant MODULE_MAIN_INSTALLED in File: /www/htdocs/w014f718/webshop/modified/admin/modules.php on Line: 250
+[24-08-2016 11:52:24] E_WARNING	: LoggingManager: dir(/www/htdocs/w014f718/webshop/modified/includes/modules/main/): failed to open dir: No such file or directory in File: /www/htdocs/w014f718/webshop/modified/admin/modules.php on Line: 327
+[24-08-2016 11:52:26] E_WARNING	: LoggingManager: constant(): Couldn't find constant MODULE_ORDER_INSTALLED in File: /www/htdocs/w014f718/webshop/modified/admin/modules.php on Line: 250
+[24-08-2016 11:52:28] E_WARNING	: LoggingManager: constant(): Couldn't find constant MODULE_XTCPRICE_INSTALLED in File: /www/htdocs/w014f718/webshop/modified/admin/modules.php on Line: 250
+[24-08-2016 15:56:18] E_WARNING	: LoggingManager: Invalid argument supplied for foreach() in File: /www/htdocs/w014f718/webshop/modified/includes/external/payone/classes/PayoneModified.php on Line: 392
+[24-08-2016 15:56:18] E_WARNING	: LoggingManager: Backtrace #0 - /www/htdocs/w014f718/webshop/modified/admin/payone_config.php called at Line 541
+[24-08-2016 15:57:39] E_WARNING	: LoggingManager: Invalid argument supplied for foreach() in File: /www/htdocs/w014f718/webshop/modified/includes/external/payone/classes/PayoneModified.php on Line: 392
+[24-08-2016 15:57:39] E_WARNING	: LoggingManager: Backtrace #0 - /www/htdocs/w014f718/webshop/modified/admin/payone_config.php called at Line 65
+[24-08-2016 15:57:58] E_WARNING	: LoggingManager: Invalid argument supplied for foreach() in File: /www/htdocs/w014f718/webshop/modified/includes/external/payone/classes/PayoneModified.php on Line: 392
+[24-08-2016 15:57:58] E_WARNING	: LoggingManager: Backtrace #0 - /www/htdocs/w014f718/webshop/modified/admin/payone_config.php called at Line 40

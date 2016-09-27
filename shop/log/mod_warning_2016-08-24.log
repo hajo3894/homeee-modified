@@ -1,0 +1,6 @@
+[24-08-2016 10:20:16] E_WARNING	: LoggingManager: chmod(): Operation not permitted in File: /www/htdocs/w014f718/webshop/modified/_installer/includes/check_permissions.php on Line: 30
+[24-08-2016 10:20:16] E_WARNING	: LoggingManager: Backtrace #0 - /www/htdocs/w014f718/webshop/modified/_installer/index.php called at Line 70
+[24-08-2016 10:20:48] E_WARNING	: LoggingManager: chmod(): Operation not permitted in File: /www/htdocs/w014f718/webshop/modified/_installer/includes/check_permissions.php on Line: 30
+[24-08-2016 10:20:48] E_WARNING	: LoggingManager: Backtrace #0 - /www/htdocs/w014f718/webshop/modified/_installer/index.php called at Line 70
+[24-08-2016 10:21:30] E_WARNING	: LoggingManager: chmod(): Operation not permitted in File: /www/htdocs/w014f718/webshop/modified/_installer/includes/check_permissions.php on Line: 30
+[24-08-2016 10:21:30] E_WARNING	: LoggingManager: Backtrace #0 - /www/htdocs/w014f718/webshop/modified/_installer/index.php called at Line 70
